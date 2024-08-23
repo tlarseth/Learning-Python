@@ -1,12 +1,12 @@
-import json
 import requests
-import sys
 
-if len(sys.argv) != 2:
-    sys.exit()
-
-response = requests.get("https://itunes.apple.com/search?entity=song&limit=500&term=" + sys.argv[1])
-
+band_name = input('Name a band.\n')
+response = requests.get("https://itunes.apple.com/search?entity=song&limit=5&term=" + band_name)
+print('5 songs from', band_name, 'are:\n')
 o = response.json()
+
 for result in o["results"]:
-    print(result["trackName"])
+    if result["trackName"] == band_name:
+        continue
+    if result["trackName"] != band_name:
+        print(result["trackName"])
