@@ -1,4 +1,4 @@
-# Type code for classes here
+# Type code for classes here...
 def main():
     class ItemToPurchase:
 
