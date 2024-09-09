@@ -1,9 +1,11 @@
-# Asks user for their name and age
-user_name = input('What is your name?')
-user_age = int(input('How old are you?'))
-
-# Pull birth year from age variable
-user_year = (2024-user_age)
-
-# Outputs the user's name and year of birth with a greeting
-print ('Hello {}!  You were born in {}.'.format(user_name, user_year))
+# Coded by Kyle Mann kyle.mann1@snhu.edu
+# get name as a string
+user_name = str(input("What is your name?"))
+# get age as an int
+user_age = int(input("What is your age?"))
+# calculate birth year
+from datetime import date
+current_year = date.today().year
+user_year = (current_year - user_age)
+# print greeting
+print ("Hello {}!  You were born in {}.".format(user_name, user_year))
