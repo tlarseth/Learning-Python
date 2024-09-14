@@ -13,12 +13,12 @@ class Items:
         self.position = disciption
 
 
-sword = Weapon("Master Sword", "It's dangerous to go alone, take this.")
-grenade = Weapon("Holy Hand Grenade of Antioch", "Three shall be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, neither count thou two, excepting that thou then proceed to three. Five is right out. Once the number three, being the third number, be reached, then lobbest thou thy Holy Hand Grenade of Antioch towards thy foe, who, being naughty in my sight, shall snuff it")
-mushroom = Items("Magic Mushroom", "Why are my pants now shorts?")
-game = Items("Hatsune Miku Colorful Stage", "Blame my 15 year old daughter for this one")
-doll = Items("Freddy Fazbear Plushy", "Can you survive five nights?")
-paimon = Items("Paimon", "Emergency Rations:  Just in case you get hungry")
+#sword = Weapon("Master Sword", "It's dangerous to go alone, take this.")
+#grenade = Weapon("Holy Hand Grenade of Antioch", "Three shall be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, neither count thou two, excepting that thou then proceed to three. Five is right out. Once the number three, being the third number, be reached, then lobbest thou thy Holy Hand Grenade of Antioch towards thy foe, who, being naughty in my sight, shall snuff it")
+#mushroom = Items("Magic Mushroom", "Why are my pants now shorts?")
+#game = Items("Hatsune Miku Colorful Stage", "Blame my 15 year old daughter for this one")
+#doll = Items("Freddy Fazbear Plushy", "Can you survive five nights?")
+#paimon = Items("Paimon", "Emergency Rations:  Just in case you get hungry")
 
 
 rooms = {
