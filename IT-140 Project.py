@@ -32,9 +32,11 @@ while current_room != 'Exit':
     if user_command in directions:
         if user_command in current_room:
             current_room = rooms[current_room[user_command]]
-            if current_room['name'] == 'Exit':
+            if current_room['name'] == 'Exit' and (len(Inventory) != '5'):
                 print('You win, but unfortunately the Darkness took the cake with it.')
                 break
+            else:
+                print('You see a collection of glowing objects on a shelf')
         else:
             print('\nChoose another path.')
     elif user_command == 'Get Item':
@@ -54,4 +56,4 @@ while current_room != 'Exit':
         break
 
     else:
-       print('Invalid input')
+        print('Invalid input')
