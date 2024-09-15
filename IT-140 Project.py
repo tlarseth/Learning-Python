@@ -1,3 +1,9 @@
+# Fantasy Text Game
+# Created by Kyle Mann
+# Created for SNHU IT-140
+
+
+
 rooms = {'Training Camp': {'name': 'the Training Camp', 'Go North': 'Clearing', 'item': 'None'},
          'Clearing': {'name': 'Clearing', 'Go South': 'Training Camp', 'Go North': 'Forest Maze', 'Go East': 'Cave', 'item': 'Master Sword'},
          'Cave': {'name': 'Cave', 'Go West': 'Clearing', 'item': 'Holy Hand Grenade of Antioch'},
