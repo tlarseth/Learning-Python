@@ -1,5 +1,5 @@
 # Fantasy Text Game
-# Created by Kyle Mann
+# Created by Kyle "Dae'Loki" Mann
 # Created for SNHU IT-140
 
 
@@ -15,7 +15,7 @@ rooms = {'Training Camp': {'name': 'the Training Camp', 'Go North': 'Clearing', 
 }
 
 
-print('Wizard Text Adventure Game\n')
+print('Magical Text Adventure Game\n')
 print('Collect 6 items to win the game, or be defeated by the Darkness.')
 print('Move commands: Go South, Go North, Go East, Go West')
 print('Add to Inventory: Get Item')
@@ -38,13 +38,16 @@ while current_room != 'Exit':
     if user_command in directions:
         if user_command in current_room:
             current_room = rooms[current_room[user_command]]
-            if current_room['name'] == 'Exit' and (len(Inventory) != '5'):
-                print('You win, but unfortunately the Darkness took the cake with it.')
+            if (current_room['name'] == 'Mysterious Room') and (len(Inventory.keys()) != 5):
+                print('You lose, but unfortunately the Darkness took the cake with it.')
                 break
             else:
                 print('You see a collection of glowing objects on a shelf')
         else:
             print('\nChoose another path.')
+        if current_room['name'] == 'Exit':
+            print ("Congradulations on defeating the darkness, you didn't even have to cast magic missile to do it")
+            break
     elif user_command == 'Get Item':
         if current_room['item'] != 'none':
             Inventory['Item' + str(len(Inventory.keys()) + 1)] = current_room['item']
