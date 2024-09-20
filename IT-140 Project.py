@@ -24,11 +24,11 @@ current_room = rooms['Training Camp']
 directions = ['Go North', 'Go South', 'Go East', 'Go West']
 Item = ['Master Sword', 'Holy Hand Grenade of Antioch', 'Needler', 'Project Sekai Game', 'Magic Mushroom', 'Dragon Balls']
 Inventory = {}
-
+user_inv = list(Inventory.values())
 while current_room != 'Exit':
     print('-' * 42)
     print('You are in the {}'.format(current_room['name']))
-    print('Your current inventory: {}'.format (Inventory))
+    print('Your current inventory: {}'.format (list(Inventory.values())))
     if current_room['item']:
         print('Item in room: {}'.format(''.join(current_room['item'])))
         print('')
@@ -42,9 +42,9 @@ while current_room != 'Exit':
                 print('You lose, but unfortunately the Darkness took the cake with it.')
                 break
             else:
-                print('You see a collection of glowing objects on a shelf')
+                print('You see an item that is up for grabs...hopefully it is not a mimic...')
         else:
-            print('\nChoose another path.')
+            print('\nA mysterious force prevents you from going that way.')
         if current_room['name'] == 'Exit':
             print ("Congradulations on defeating the darkness, you didn't even have to cast magic missile to do it")
             break
@@ -54,7 +54,9 @@ while current_room != 'Exit':
             # Inventory.append(current_room['item'])
 
             print("You acquired : ", current_room['item'])
-            print(Inventory)
+            print ()
+            print ('Current Inventory:')
+            print(user_inv)
             current_room['item'] = 'none'
         else:
             print("No items to collect in this room")
