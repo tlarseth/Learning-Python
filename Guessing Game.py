@@ -1,7 +1,7 @@
 import random
 
-seedVal = int(input("What seed should be used? "))
-random.seed(seedVal)
+#seedVal = int(input("What seed should be used? "))
+#random.seed(seedVal)
 
 lower = int(input("What is the lower bound?"))
 upper = int(input("What is the upper bound?"))
