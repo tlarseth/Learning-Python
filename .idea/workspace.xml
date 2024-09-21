@@ -246,7 +246,7 @@
       <workItem from="1726341063631" duration="4362000" />
       <workItem from="1726349752369" duration="14367000" />
       <workItem from="1726871678014" duration="4896000" />
-      <workItem from="1726944988267" duration="5957000" />
+      <workItem from="1726944988267" duration="8512000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
@@ -368,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726878509358</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adding new files">
+      <option name="closed" value="true" />
+      <created>1726951286003</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726951286003</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +413,7 @@
     <SUITE FILE_PATH="coverage/git_test_1$generate.coverage" NAME="generate Coverage Results" MODIFIED="1724089000010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Smallest_Number.coverage" NAME="Smallest Number Coverage Results" MODIFIED="1725470072934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Items.coverage" NAME="Items Coverage Results" MODIFIED="1726368390075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project.coverage" NAME="IT-140 Project Coverage Results" MODIFIED="1726950967251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project.coverage" NAME="IT-140 Project Coverage Results" MODIFIED="1726953469273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project_Sample.coverage" NAME="IT-140 Project_Sample Coverage Results" MODIFIED="1725844618227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
