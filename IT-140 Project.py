@@ -54,7 +54,7 @@ while current_room != 'Exit':
 
 # Movement handling
     if user_command_move in directions:
-        if user_command_move in current_room:
+        if user_command_move in current_room and user_direction[0] == 'Go':
             current_room = rooms[current_room[user_command_move]]
 
 # Win scenario
