@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Adding new files">
+    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes">
+      <change afterPath="$PROJECT_DIR$/Deep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Einstein.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Faces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Indoor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpreter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Banks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,42 +57,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Cart (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Cart.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Guessing Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.IT-140 Project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.IT-140 Project_Sample.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Items 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Items.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NameAge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Paycheck Calculator.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Smallest Number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Warrior.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Year Born.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cat.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.itunes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.name_age.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Users/OneDrive/Documents/Repos/git_test-1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Cart (1).executor": "Run",
+    "Python.Cart.executor": "Run",
+    "Python.Einstein.executor": "Run",
+    "Python.Faces.executor": "Run",
+    "Python.Guessing Game.executor": "Run",
+    "Python.IT-140 Project.executor": "Run",
+    "Python.IT-140 Project_Sample.executor": "Run",
+    "Python.Items 2.executor": "Run",
+    "Python.Items.executor": "Run",
+    "Python.NameAge.executor": "Run",
+    "Python.Paycheck Calculator.executor": "Debug",
+    "Python.Smallest Number.executor": "Run",
+    "Python.Warrior.executor": "Run",
+    "Python.Year Born.executor": "Run",
+    "Python.cat.executor": "Run",
+    "Python.generate.executor": "Run",
+    "Python.itunes.executor": "Run",
+    "Python.name_age.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Users/OneDrive/Documents/Repos/git_test-1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Vegeta\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="962b1bc8-adf4-445f-bcf2-09af2c268800" reportId="git_test-1/qodana/2024-09-04" />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Users\OneDrive\Documents\Repos\git_test-1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Cart (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -124,7 +139,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.vscode/Cart.py" />
+      <option name="SCRIPT_NAME" value="F:\Users\OneDrive\Documents\Repos\git_test-1\Cart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +261,7 @@
       <workItem from="1726349752369" duration="14367000" />
       <workItem from="1726871678014" duration="4896000" />
       <workItem from="1726944988267" duration="9633000" />
-      <workItem from="1726956433190" duration="1329000" />
+      <workItem from="1726956433190" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
@@ -408,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726957460977</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Code Fixes">
+      <option name="closed" value="true" />
+      <created>1726957912609</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726957912609</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +451,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new files&#10;Adding new files" />
     <MESSAGE value="Adding new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new files" />
+    <MESSAGE value="Code Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Fixes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/git_test_1$Cart__1_.coverage" NAME="Cart (1) Coverage Results" MODIFIED="1725585793426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -436,16 +460,18 @@
     <SUITE FILE_PATH="coverage/git_test_1$Paycheck_Calculator.coverage" NAME="Paycheck Calculator Coverage Results" MODIFIED="1726345808356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Year_Born.coverage" NAME="Year Born Coverage Results" MODIFIED="1725470013309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Cart.coverage" NAME="Cart Coverage Results" MODIFIED="1726957183847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.vscode" />
+    <SUITE FILE_PATH="coverage/git_test_1$Faces.coverage" NAME="Faces Coverage Results" MODIFIED="1726958500961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Items_2.coverage" NAME="Items 2 Coverage Results" MODIFIED="1726365143449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$itunes.coverage" NAME="itunes Coverage Results" MODIFIED="1724708509058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$NameAge.coverage" NAME="NameAge Coverage Results" MODIFIED="1725843518879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$name_age.coverage" NAME="NameAge Coverage Results" MODIFIED="1724709115033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Guessing_Game.coverage" NAME="Guessing Game Coverage Results" MODIFIED="1726876940132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$cat.coverage" NAME="cat Coverage Results" MODIFIED="1724708998333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_test_1$Einstein.coverage" NAME="Einstein Coverage Results" MODIFIED="1726958440713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$generate.coverage" NAME="generate Coverage Results" MODIFIED="1724089000010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Smallest_Number.coverage" NAME="Smallest Number Coverage Results" MODIFIED="1725470072934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$Items.coverage" NAME="Items Coverage Results" MODIFIED="1726368390075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project.coverage" NAME="IT-140 Project Coverage Results" MODIFIED="1726957249862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project.coverage" NAME="IT-140 Project Coverage Results" MODIFIED="1726957853445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_test_1$IT_140_Project_Sample.coverage" NAME="IT-140 Project_Sample Coverage Results" MODIFIED="1725844618227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
