@@ -4,20 +4,20 @@
 
 
 # Dictionary of rooms, items, and directions
-rooms = {'Training Camp': {'name': 'the Training Camp', 'Go North': 'Clearing', 'item': 'None'},
-         'Clearing': {'name': 'Clearing', 'Go South': 'Training Camp', 'Go North': 'Forest Maze', 'Go East': 'Cave', 'item': 'Master Sword'},
-         'Cave': {'name': 'Cave', 'Go West': 'Clearing', 'item': 'Holy Hand Grenade of Antioch'},
-         'Forest Maze': {'name': 'Forest Maze', 'Go South': 'Clearing', 'Go East': 'Camp Site', 'item': 'Needler'},
-         'Camp Site': {'name': 'Camp Site', 'Go West': 'Forest Maze', 'Go East': 'Graveyard', 'item': 'Project Sekai Game'},
-         'Graveyard': {'name': 'Graveyard', 'Go South': 'Mysterious Room', 'item': 'Magic Mushroom'},
-         'Mysterious Room': {'name': 'Mysterious Room', 'Go South': 'Exit', 'item': 'Dragon Balls'},
+rooms = {'Training Camp': {'name': 'the Training Camp', 'North': 'Clearing', 'item': 'None'},
+         'Clearing': {'name': 'Clearing', 'South': 'Training Camp', 'North': 'Forest Maze', 'East': 'Cave', 'item': 'Master Sword'},
+         'Cave': {'name': 'Cave', 'West': 'Clearing', 'item': 'Holy Hand Grenade of Antioch'},
+         'Forest Maze': {'name': 'Forest Maze', 'South': 'Clearing', 'East': 'Camp Site', 'item': 'Needler'},
+         'Camp Site': {'name': 'Camp Site', 'West': 'Forest Maze', 'East': 'Graveyard', 'item': 'Project Sekai Game'},
+         'Graveyard': {'name': 'Graveyard', 'South': 'Mysterious Room', 'West': 'Camp Site', 'item': 'Magic Mushroom'},
+         'Mysterious Room': {'name': 'Mysterious Room', 'South': 'Exit', 'North': 'Graveyard', 'item': 'Dragon Balls'},
          'Exit': {'name': 'Exit', 'item': 'None'}
 }
 
 # Begin adventure with instructions
 print('Magical Text Adventure Game\n')
 print('Collect 6 items to win the game, or be defeated by the Darkness.')
-print('Move commands: Go South, Go North, Go East, Go West')
+print('Move commands: South, North, East, West')
 print('Add to Inventory: Get Item')
 
 # Get user's name
@@ -25,7 +25,7 @@ user_name = input('Enter your name: \n').title()
 
 # Setting up variables
 current_room = rooms['Training Camp']
-directions = ['Go North', 'Go South', 'Go East', 'Go West']
+directions = ['North', 'South', 'East', 'West']
 Item = ['Master Sword', 'Holy Hand Grenade of Antioch', 'Needler', 'Project Sekai Game', 'Magic Mushroom', 'Dragon Balls']
 Inventory = {}
 user_inv = list(Inventory.values())
@@ -35,15 +35,26 @@ while current_room != 'Exit':
     print('-' * 42)
     print('You are in the {}'.format(current_room['name']))
     print("{}'s current inventory: {}".format (user_name, list(Inventory.values())))
+# Output current possible directions to move
+    rooms_directions = list(current_room.keys())
+    rooms_directions1 = rooms_directions[1:-1]
+    print ('\nCurrent directions you can go')
+    print (rooms_directions1)
+    print()
+
+# Check for item in current room
     if current_room['item']:
         print('Item in room: {}'.format(''.join(current_room['item'])))
-        print('')
 
     user_command = input('Enter your move: \n>>> ').title()
+    user_direction = user_command.split()
+    user_move = user_direction[-1]
+    user_command_move = user_move.title()
+
 # Movement handling
-    if user_command in directions:
-        if user_command in current_room:
-            current_room = rooms[current_room[user_command]]
+    if user_command_move in directions:
+        if user_command_move in current_room:
+            current_room = rooms[current_room[user_command_move]]
 
 # Win scenario
             if (current_room['name'] == 'Mysterious Room') and (len(Inventory.keys()) != 5):
