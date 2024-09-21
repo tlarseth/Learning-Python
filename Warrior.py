@@ -6,7 +6,7 @@ def get_punched(health, armor):
 
 
 def get_slashed(health, armor):
-    armor(0)0
+    armor(0)
     damage = 100 - armor
     new_health = health - damage
     return new_health
