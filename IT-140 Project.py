@@ -1,5 +1,5 @@
 # Fantasy Text Game
-# Created by Kyle "Dae'Loki" Mann
+# Created by Kyle Mann
 # Created for SNHU IT-140
 
 

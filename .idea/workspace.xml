@@ -84,7 +84,7 @@
       <ReportDescription localRun="true" path="C:\Users\Vegeta\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="962b1bc8-adf4-445f-bcf2-09af2c268800" reportId="git_test-1/qodana/2024-09-04" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Cart">
+  <component name="RunManager">
     <configuration name="Cart (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="git_test-1" />
       <option name="ENV_FILES" value="" />
@@ -244,7 +244,7 @@
       <workItem from="1726349752369" duration="14367000" />
       <workItem from="1726871678014" duration="4896000" />
       <workItem from="1726944988267" duration="9633000" />
-      <workItem from="1726956433190" duration="545000" />
+      <workItem from="1726956433190" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
@@ -390,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726956641113</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding new files">
+      <option name="closed" value="true" />
+      <created>1726957290140</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726957290140</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
