@@ -1,7 +1,7 @@
 # Fantasy Text Game
 # Created by Kyle Mann
 # Created for SNHU IT-140
-
+# Almost done
 
 # Dictionary of rooms, items, and directions
 rooms = {'Training Camp': {'name': 'the Training Camp', 'North': 'Clearing', 'item': 'None'},

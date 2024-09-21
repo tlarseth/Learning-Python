@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes" />
+    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Users/OneDrive/Documents/Repos/git_test-1",
+    "last_opened_file_path": "F:/Users/OneDrive/Documents/Repos/Learning Python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -254,6 +256,7 @@
       <workItem from="1726871678014" duration="4896000" />
       <workItem from="1726944988267" duration="9633000" />
       <workItem from="1726956433190" duration="2543000" />
+      <workItem from="1726959508746" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
