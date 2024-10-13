@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes" />
+    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes">
+      <change afterPath="$PROJECT_DIR$/Movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping Card 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +98,7 @@
       <recent name="F:\Users\OneDrive\Documents\Repos\git_test-1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.IT-140 Project">
+  <component name="RunManager">
     <configuration name="Cart (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="git_test-1" />
       <option name="ENV_FILES" value="" />
@@ -281,7 +285,10 @@
       <workItem from="1726956433190" duration="2543000" />
       <workItem from="1726959508746" duration="986000" />
       <workItem from="1727317736615" duration="34000" />
-      <workItem from="1727317892054" duration="5542000" />
+      <workItem from="1727317892054" duration="5657000" />
+      <workItem from="1728537272252" duration="31000" />
+      <workItem from="1728537369441" duration="143000" />
+      <workItem from="1728785962640" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
@@ -483,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727323453492</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Code Fixes">
+      <option name="closed" value="true" />
+      <created>1727323769108</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727323769108</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
