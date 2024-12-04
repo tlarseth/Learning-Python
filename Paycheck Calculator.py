@@ -1,3 +1,8 @@
+#Created by Dae'Loki
+#Gamer's Guild©
+
+
+
 # ask for input for employee payrate and total hours worked
 emp_payrate = float(input("What is the employee's payrate?"))
 emp_total_hours = float(input("What is the employee's total hours for the week?"))
@@ -20,4 +25,4 @@ ot_paycheck = ot_hours * ot_payrate
 total_paycheck = (reg_paycheck + ot_paycheck)
 # Output total paycheck
 
-print ("Your paycheck will be ${} based on {} regular hours and {} overtime hours worked this week.".format(total_paycheck, reg_hours, ot_hours))
+print ("Your gross pay will be ${} based on {} regular hours and {} overtime hours worked this week.".format(total_paycheck, reg_hours, ot_hours))
