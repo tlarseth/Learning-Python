@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes">
-      <change afterPath="$PROJECT_DIR$/.vscode/Paycheck Calculator (2).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paycheck Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Paycheck Calculator.py" afterDir="false" />
-    </list>
+    <list default="true" id="b8805ce3-0e40-4492-9a7d-18b3ec39c584" name="Changes" comment="Code Fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +255,7 @@
       <workItem from="1726956433190" duration="2135000" />
       <workItem from="1726959449469" duration="58000" />
       <workItem from="1726960731027" duration="12000" />
-      <workItem from="1733353499298" duration="342000" />
+      <workItem from="1733353499298" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Adding new files">
       <option name="closed" value="true" />
@@ -429,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726957912609</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Code Fixes">
+      <option name="closed" value="true" />
+      <created>1733354141760</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733354141760</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
