@@ -20,24 +20,31 @@ def calculate_net_salary(gross_salary, filing_status):
     return net_salary
 
 def main():
-    try:
-        hourly_rate = int(input("Enter your hourly rate: $"))
-        hours_worked = int(input("Enter the number of hours worked: "))
-        filing_status = input("Enter your filing status (single or married): ").lower()
+    while True:
+        try:
+            hourly_rate = float(input("Enter your hourly rate: $"))
+            hours_worked = float(input("Enter the number of hours worked: "))
+            filing_status = input("Enter your filing status (single or married): ").lower()
 
-        if hourly_rate < 0 or hours_worked < 0:
-            print("Please enter positive values for hourly rate and hours worked.")
-            return
+            if hourly_rate < 0 or hours_worked < 0:
+                print("Please enter positive values for hourly rate and hours worked.")
+                continue
 
-        regular_hours = int(min(hours_worked, 40))
-        overtime_hours = int(max(0, hours_worked - 40))
-        gross_salary = (regular_hours * hourly_rate) + (overtime_hours * hourly_rate * 1.5)
-        print(f"Your estimated gross salary before taxes is: ${gross_salary:.2f}")
-        net_salary = calculate_net_salary(gross_salary, filing_status)
-        print(f"Your estimated net salary after taxes is: ${net_salary:.2f}")
+            if filing_status not in ["single", "married"]:
+                raise KeyError("Invalid filing status. Please enter 'single' or 'married'.")
 
-    except ValueError:
-        print("Invalid input. Please enter numeric values for hourly rate and hours worked.")
+            regular_hours = min(hours_worked, 40)
+            overtime_hours = max(0, hours_worked - 40)
+            gross_salary = (regular_hours * hourly_rate) + (overtime_hours * hourly_rate * 1.5)
+            print(f"Your estimated gross salary before taxes is: ${gross_salary:.2f}")
+            net_salary = calculate_net_salary(gross_salary, filing_status)
+            print(f"Your estimated net salary after taxes is: ${net_salary:.2f}")
+            break
+
+        except ValueError:
+            print("Invalid input. Please enter numeric values for hourly rate and hours worked.")
+        except KeyError as e:
+            print(e)
 
 if __name__ == "__main__":
     main()
