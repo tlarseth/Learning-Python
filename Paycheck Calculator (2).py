@@ -25,6 +25,14 @@ def main():
             hourly_rate = float(input("Enter your hourly rate: $"))
             hours_worked = float(input("Enter the number of hours worked: "))
             filing_status = input("Enter your filing status (single or married): ").lower()
+            holiday = input("Did you work any holidays? (yes/no): ").lower()
+
+            worked_holiday = 0
+            off_holiday = 0
+
+            if holiday == 'yes':
+                worked_holiday = float(input("Hours worked on Holiday: "))
+                off_holiday = float(input("Hours for not working Holiday: "))
 
             if hourly_rate < 0 or hours_worked < 0:
                 print("Please enter positive values for hourly rate and hours worked.")
@@ -35,7 +43,9 @@ def main():
 
             regular_hours = min(hours_worked, 40)
             overtime_hours = max(0, hours_worked - 40)
-            gross_salary = (regular_hours * hourly_rate) + (overtime_hours * hourly_rate * 1.5)
+            holiday_pay = (worked_holiday * hourly_rate * 2) + (off_holiday * hourly_rate)
+            gross_salary = (regular_hours * hourly_rate) + (overtime_hours * hourly_rate * 1.5) + holiday_pay
+
             print(f"Your estimated gross salary before taxes is: ${gross_salary:.2f}")
             net_salary = calculate_net_salary(gross_salary, filing_status)
             print(f"Your estimated net salary after taxes is: ${net_salary:.2f}")
