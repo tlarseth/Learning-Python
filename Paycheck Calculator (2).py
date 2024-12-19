@@ -27,8 +27,8 @@ def main():
             filing_status = input("Enter your filing status (single or married): ").lower()
             holiday = input("Did you work any holidays? (yes/no): ").lower()
 
-            worked_holiday = 0
-            off_holiday = 0
+            worked_holiday = 0.0
+            off_holiday = 0.0
 
             if holiday == 'yes':
                 worked_holiday = float(input("Hours worked on Holiday: "))
@@ -41,8 +41,8 @@ def main():
             if filing_status not in ["single", "married"]:
                 raise KeyError("Invalid filing status. Please enter 'single' or 'married'.")
 
-            regular_hours = min(hours_worked, 40)
-            overtime_hours = max(0, hours_worked - 40)
+            regular_hours = min(hours_worked, 40.0)
+            overtime_hours = max(0.0, hours_worked - 40.0)
             holiday_pay = (worked_holiday * hourly_rate * 2) + (off_holiday * hourly_rate)
             gross_salary = (regular_hours * hourly_rate) + (overtime_hours * hourly_rate * 1.5) + holiday_pay
 
